@@ -5,12 +5,12 @@
 
 _offline="false"
 _git="false"
-pkgname=powerctl
-pkgver=0.0.0.0.0.0.0.0.0.0.0.0.0.1
-_commit="256cac76940a943bf4ed4023fad017abe730e23c"
+pkgname=email-bulk-sender
+pkgver=0.0.0.0.0.0.0.0.0.0.0.0.0.1.1
+_commit="83974e1849a44388d85d0fa553e08264c23ca9f4"
 pkgrel=1
 _pkgdesc=(
-  "Manages power."
+  "Sends emails in bulk."
 )
 pkgdesc="${_pkgdesc[*]}"
 arch=(
@@ -23,7 +23,9 @@ license=(
   AGPL3
 )
 depends=(
-  "displayctl"
+  "gawk"
+  "libcrash-bash"
+  "msmtp"
 )
 _os="$( \
   uname \
@@ -67,7 +69,7 @@ _tarname="${pkgname}-${_tag}"
     _sum="d4f4179c6e4ce1702c5fe6af132669e8ec4d0378428f69518f2926b969663a91"
   elif [[ "${_tag_name}" == "commit" ]]; then
     _tar="${_tarname}.zip::${_url}/archive/${_commit}.zip"
-    _sum="573ecbc080181eef4c2fbb5191f6d12cb5e6c10f991224ed2ca37c3a29c06511"
+    _sum="04a6c72a1d8350bc0234a49d30b7d92a2bb413ec288a925937d0d5327810eea7"
   fi && \
     source+=(
       "${_tar}"

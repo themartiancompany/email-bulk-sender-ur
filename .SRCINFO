@@ -1,15 +1,17 @@
-pkgbase = powerctl
-	pkgdesc = Manages power.
-	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.0.1
+pkgbase = email-bulk-sender
+	pkgdesc = Sends emails in bulk.
+	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.0.1.1
 	pkgrel = 1
-	url = https://github.com/themartiancompany/powerctl
+	url = https://github.com/themartiancompany/email-bulk-sender
 	arch = any
 	license = AGPL3
 	checkdepends = shellcheck
 	makedepends = make
-	depends = displayctl
-	source = powerctl-256cac76940a943bf4ed4023fad017abe730e23c.zip::https://github.com/themartiancompany/powerctl/archive/256cac76940a943bf4ed4023fad017abe730e23c.zip
+	depends = gawk
+	depends = libcrash-bash
+	depends = msmtp
+	source = email-bulk-sender-83974e1849a44388d85d0fa553e08264c23ca9f4.zip::https://github.com/themartiancompany/email-bulk-sender/archive/83974e1849a44388d85d0fa553e08264c23ca9f4.zip
 	validpgpkeys = 97E989E6CF1D2C7F7A41FF9F95684DBE23D6A3E9
-	sha256sums = 573ecbc080181eef4c2fbb5191f6d12cb5e6c10f991224ed2ca37c3a29c06511
+	sha256sums = 04a6c72a1d8350bc0234a49d30b7d92a2bb413ec288a925937d0d5327810eea7
 
-pkgname = powerctl
+pkgname = email-bulk-sender
