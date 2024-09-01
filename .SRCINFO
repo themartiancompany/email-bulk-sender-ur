@@ -1,6 +1,6 @@
 pkgbase = email-bulk-sender
 	pkgdesc = Sends emails in bulk.
-	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.0.1.1
+	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.0.1.1.1
 	pkgrel = 1
 	url = https://github.com/themartiancompany/email-bulk-sender
 	arch = any
@@ -10,8 +10,8 @@ pkgbase = email-bulk-sender
 	depends = gawk
 	depends = libcrash-bash
 	depends = msmtp
-	source = email-bulk-sender-83974e1849a44388d85d0fa553e08264c23ca9f4.zip::https://github.com/themartiancompany/email-bulk-sender/archive/83974e1849a44388d85d0fa553e08264c23ca9f4.zip
+	source = email-bulk-sender-51e1e22e5e7eb1e360db021d3d28fb08fa655c42.zip::https://github.com/themartiancompany/email-bulk-sender/archive/51e1e22e5e7eb1e360db021d3d28fb08fa655c42.zip
 	validpgpkeys = 97E989E6CF1D2C7F7A41FF9F95684DBE23D6A3E9
-	sha256sums = 04a6c72a1d8350bc0234a49d30b7d92a2bb413ec288a925937d0d5327810eea7
+	sha256sums = 61d0a0b21bb8e984ea36ce9c0688ab059f3ccddbb1527fbe6c7b898ab75652f9
 
 pkgname = email-bulk-sender

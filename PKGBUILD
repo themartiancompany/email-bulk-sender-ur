@@ -6,8 +6,8 @@
 _offline="false"
 _git="false"
 pkgname=email-bulk-sender
-pkgver=0.0.0.0.0.0.0.0.0.0.0.0.0.1.1
-_commit="83974e1849a44388d85d0fa553e08264c23ca9f4"
+pkgver=0.0.0.0.0.0.0.0.0.0.0.0.0.1.1.1
+_commit="51e1e22e5e7eb1e360db021d3d28fb08fa655c42"
 pkgrel=1
 _pkgdesc=(
   "Sends emails in bulk."
@@ -69,7 +69,7 @@ _tarname="${pkgname}-${_tag}"
     _sum="d4f4179c6e4ce1702c5fe6af132669e8ec4d0378428f69518f2926b969663a91"
   elif [[ "${_tag_name}" == "commit" ]]; then
     _tar="${_tarname}.zip::${_url}/archive/${_commit}.zip"
-    _sum="04a6c72a1d8350bc0234a49d30b7d92a2bb413ec288a925937d0d5327810eea7"
+    _sum="61d0a0b21bb8e984ea36ce9c0688ab059f3ccddbb1527fbe6c7b898ab75652f9"
   fi && \
     source+=(
       "${_tar}"
